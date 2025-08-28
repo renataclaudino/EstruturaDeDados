@@ -1,5 +1,5 @@
 function bubbleSort(vetor) {
-    fpr ( i =0; i <vetor.length; i++) {
+    for ( i =0; i <vetor.length; i++) {
         var aux
         for (j = 0; j < vetor.length - 1; j++) {
             if (vetor[j] > vetor[j + 1]) {
