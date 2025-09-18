@@ -8,7 +8,6 @@ function bubbleSort(vet) {
         }
       }
     }
-    return vet;
   }
   
   // Seleção Direta
@@ -30,7 +29,7 @@ function bubbleSort(vet) {
         vet[pos] = aux;
       }
     }
-    return vet;
+
   }
   
   // Inserção Direta
@@ -43,7 +42,6 @@ function bubbleSort(vet) {
       }
       vet[j + 1] = aux;
     }
-    return vet;
   }
   
   ///////Programa Principal INVERTIDO
