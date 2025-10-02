@@ -137,7 +137,7 @@ function bubbleSort(vet) {
         }
       }
     }
-  }
+
   
   function insercaoDireta(vetor) {
     for (let i = 1; i < vetor.length; i++) {
